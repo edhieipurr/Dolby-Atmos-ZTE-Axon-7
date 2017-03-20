@@ -5,7 +5,7 @@ This module enables ZTE Axon 7 Dolby Atmos port and is the fifth most compatible
 * Android Marshmallow+
 * Magisk install (MagiskSU/SuperSU)
 * System install (only in permissive)
-* Works with Viper4Android and AM3D Zirene
+* Works with AM3D Zirene® Sound & Viper4Android
 
 ### Credits
 * Dolby Laboratories
