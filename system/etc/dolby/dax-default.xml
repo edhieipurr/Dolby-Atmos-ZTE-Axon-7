@@ -810,7 +810,7 @@
   </preset>
   <profile id="movie" name="Movie">
     <data>
-      <graphic-equalizer-enable value="true" />
+      <graphic-equalizer-enable value="false" />
       <ieq-enable value="true" />
       <ieq-amount value="10" />
       <mi-dialog-enhancer-steering-enable value="false" />
@@ -819,14 +819,14 @@
       <mi-surround-compressor-steering-enable value="false" />
       <virtualizer-headphone-reverb-gain value="0" />
       <intermediate_profile_audio-optimizer-enable value="true" />
-      <intermediate_profile_bass-enhancer-enable value="true" />
+      <intermediate_profile_bass-enhancer-enable value="false" />
       <intermediate_profile_bass-extraction-enable value="false" />
-      <intermediate_profile_process-optimizer-enable value="true" />
+      <intermediate_profile_process-optimizer-enable value="false" />
       <intermediate_profile_regulator-enable value="true" />
       <intermediate_profile_regulator-speaker-dist-enable value="true" />
       <intermediate_profile_surround-decoder-enable value="true" />
       <intermediate_profile_volume-modeler-enable value="false" />
-      <intermediate_profile_partial_virtual_bass_enable value="true" />
+      <intermediate_profile_partial_virtual_bass_enable value="false" />
       <endpoint_type id="speaker">
         <calibration-boost value="0" />
         <dialog-enhancer-enable value="true" />
@@ -869,7 +869,7 @@
         <volmax-boost value="144" />
         <volume-leveler-enable value="true" />
         <volume-leveler-amount value="7" />
-        <intermediate_profile_partial_virtualizer_enable value="true" />
+        <intermediate_profile_partial_virtualizer_enable value="false" />
       </endpoint_type>
       <endpoint_port id="bluetooth">
         <volume-leveler-in-target value="-320" />
@@ -910,14 +910,14 @@
       <mi-surround-compressor-steering-enable value="false" />
       <virtualizer-headphone-reverb-gain value="0" />
       <intermediate_profile_audio-optimizer-enable value="true" />
-      <intermediate_profile_bass-enhancer-enable value="true" />
+      <intermediate_profile_bass-enhancer-enable value="false" />
       <intermediate_profile_bass-extraction-enable value="false" />
-      <intermediate_profile_process-optimizer-enable value="true" />
+      <intermediate_profile_process-optimizer-enable value="false" />
       <intermediate_profile_regulator-enable value="true" />
       <intermediate_profile_regulator-speaker-dist-enable value="true" />
       <intermediate_profile_surround-decoder-enable value="true" />
       <intermediate_profile_volume-modeler-enable value="false" />
-      <intermediate_profile_partial_virtual_bass_enable value="true" />
+      <intermediate_profile_partial_virtual_bass_enable value="false" />
       <endpoint_type id="speaker">
         <calibration-boost value="0" />
         <dialog-enhancer-enable value="false" />
@@ -960,7 +960,7 @@
         <volmax-boost value="144" />
         <volume-leveler-enable value="true" />
         <volume-leveler-amount value="4" />
-        <intermediate_profile_partial_virtualizer_enable value="true" />
+        <intermediate_profile_partial_virtualizer_enable value="false" />
       </endpoint_type>
       <endpoint_port id="bluetooth">
         <volume-leveler-in-target value="-320" />
@@ -1051,7 +1051,7 @@
         <volmax-boost value="144" />
         <volume-leveler-enable value="true" />
         <volume-leveler-amount value="0" />
-        <intermediate_profile_partial_virtualizer_enable value="true" />
+        <intermediate_profile_partial_virtualizer_enable value="false" />
       </endpoint_type>
       <endpoint_port id="bluetooth">
         <volume-leveler-in-target value="-320" />
@@ -1142,7 +1142,7 @@
         <volmax-boost value="144" />
         <volume-leveler-enable value="false" />
         <volume-leveler-amount value="0" />
-        <intermediate_profile_partial_virtualizer_enable value="true" />
+        <intermediate_profile_partial_virtualizer_enable value="false" />
       </endpoint_type>
       <endpoint_port id="bluetooth">
         <volume-leveler-in-target value="-320" />
@@ -1233,7 +1233,7 @@
         <volmax-boost value="144" />
         <volume-leveler-enable value="false" />
         <volume-leveler-amount value="5" />
-        <intermediate_profile_partial_virtualizer_enable value="true" />
+        <intermediate_profile_partial_virtualizer_enable value="false" />
       </endpoint_type>
       <endpoint_port id="bluetooth">
         <volume-leveler-in-target value="-320" />
@@ -1324,7 +1324,7 @@
         <volmax-boost value="144" />
         <volume-leveler-enable value="false" />
         <volume-leveler-amount value="5" />
-        <intermediate_profile_partial_virtualizer_enable value="true" />
+        <intermediate_profile_partial_virtualizer_enable value="false" />
       </endpoint_type>
       <endpoint_port id="bluetooth">
         <volume-leveler-in-target value="-320" />
@@ -1415,7 +1415,7 @@
         <volmax-boost value="0" />
         <volume-leveler-enable value="false" />
         <volume-leveler-amount value="0" />
-        <intermediate_profile_partial_virtualizer_enable value="true" />
+        <intermediate_profile_partial_virtualizer_enable value="false" />
       </endpoint_type>
       <endpoint_port id="bluetooth">
         <volume-leveler-in-target value="-320" />
@@ -2052,22 +2052,22 @@
     </data>
   </tuning>
   <authorized_technologies sku_name="DAX2 Android" device="dax2_android_qualcomm_hybrid" bundle="SPLIT CP-DP DAPv2 2.5.x to DAPv1">
-    <audio_optimizer authorized="true" changeable_in_tuning_tool="true" enabled="true" visible_in_tuning_tool="true" />
-    <audio_regulator authorized="true" changeable_in_tuning_tool="true" enabled="true" visible_in_tuning_tool="true" />
-    <bass_enhancer authorized="true" changeable_in_tuning_tool="true" enabled="true" visible_in_tuning_tool="true" />
+    <audio_optimizer authorized="true" changeable_in_tuning_tool="false" enabled="true" visible_in_tuning_tool="true" />
+    <audio_regulator authorized="true" changeable_in_tuning_tool="false" enabled="true" visible_in_tuning_tool="true" />
+    <bass_enhancer authorized="false" changeable_in_tuning_tool="false" enabled="false" visible_in_tuning_tool="false" />
     <bass_extraction authorized="false" changeable_in_tuning_tool="false" enabled="false" visible_in_tuning_tool="false" />
     <calibration_boost authorized="false" changeable_in_tuning_tool="false" enabled="false" visible_in_tuning_tool="false" />
     <dialog_enhancer authorized="true" changeable_in_tuning_tool="true" enabled="true" visible_in_tuning_tool="true" />
     <graphic_equalizer authorized="true" changeable_in_tuning_tool="true" enabled="true" visible_in_tuning_tool="true" />
-    <height_filter authorized="false" changeable_in_tuning_tool="false" enabled="false" visible_in_tuning_tool="false" />
+    <height_filter authorized="true" changeable_in_tuning_tool="true" enabled="true" visible_in_tuning_tool="true" />
     <intelligent_equalizer authorized="true" changeable_in_tuning_tool="true" enabled="true" visible_in_tuning_tool="true" />
-    <media_intelligence authorized="true" changeable_in_tuning_tool="true" enabled="true" visible_in_tuning_tool="true" />
-    <process_optimizer authorized="true" changeable_in_tuning_tool="true" enabled="true" visible_in_tuning_tool="true" />
+    <media_intelligence authorized="false" changeable_in_tuning_tool="false" enabled="false" visible_in_tuning_tool="false" />
+    <process_optimizer authorized="false" changeable_in_tuning_tool="false" enabled="false" visible_in_tuning_tool="false" />
     <surround_decoder authorized="true" changeable_in_tuning_tool="true" enabled="true" visible_in_tuning_tool="true" />
     <surround_virtualizer authorized="true" changeable_in_tuning_tool="true" enabled="true" visible_in_tuning_tool="true" />
     <virtualizer_headphone authorized="true" changeable_in_tuning_tool="true" enabled="true" visible_in_tuning_tool="true" />
     <virtualizer_speaker authorized="true" changeable_in_tuning_tool="true" enabled="true" visible_in_tuning_tool="true" />
-    <virtual_bass authorized="true" changeable_in_tuning_tool="true" enabled="true" visible_in_tuning_tool="true" />
+    <virtual_bass authorized="false" changeable_in_tuning_tool="false" enabled="false" visible_in_tuning_tool="false" />
     <volume_leveler authorized="true" changeable_in_tuning_tool="true" enabled="true" visible_in_tuning_tool="true" />
     <volume_maximizer authorized="true" changeable_in_tuning_tool="true" enabled="true" visible_in_tuning_tool="true" />
     <volume_modeler authorized="false" changeable_in_tuning_tool="false" enabled="false" visible_in_tuning_tool="false" />
