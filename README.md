@@ -7,6 +7,10 @@ This module enables ZTE Axon 7 Dolby Atmos port and is the fifth most compatible
 * All root solutions (requires init.d support if not using magisk or supersu. Try [Init.d Injector](https://forum.xda-developers.com/android/software-hacking/mod-universal-init-d-injector-wip-t3692105))
 
 ## Change Log
+### v1.5.3 - 3.07.2018
+* Remove redundant code
+* Fix derp in vol key logic
+
 ### v1.5.2 - 3.1.2018
 * Real fix for vol key logic
 
